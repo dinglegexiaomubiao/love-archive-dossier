@@ -9,8 +9,9 @@
 
 | 组件 | 用法 | 适用 |
 |---|---|---|
-| `.master`（自动生成） | 顶部标题区，由 dossier.toml 的 title/subtitle/intro 生成 | 不用手改 |
-| `.parthead`（自动生成） | 每段标题区，由 section 的 title/desc 生成 | 不用手改 |
+| `.cover`（自动生成） | 封面：字距 kicker + 衬线大标题 + 副标 + 注脚，由 dossier.toml 的 kicker/title/subtitle/intro 生成 | 不用手改 |
+| `.toc`（自动生成） | 暖色编号目录，由 6 段 nav/title 生成 | 不用手改 |
+| `.scene`（自动生成） | 分节外壳：衬线序号 + 衬线标题 + 注脚，由 section 的 title/desc 生成；内容写进 section body | 不用手改 |
 | `.stat` + `.grid` | `<div class="grid"><div class="stat"><div class="n">数值</div><div class="l">标签</div></div>…</div>` | 量化速览卡 |
 | `.card` / `.card.blue` / `.card.pink` | 卡片；blue=我方，pink=对方 | 双向画像、结论 |
 | `.cols` | 两栏并排 | 双方对照 |

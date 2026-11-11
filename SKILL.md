@@ -1,6 +1,6 @@
 ---
 name: love-archive-dossier
-description: 微信聊天记录 → 一份「恋爱档案」单一 HTML。输入一段关系的聊天导出，自动产出唯一交付物：关系全档案（双向画像 + 争吵全景 + 逐场深析 + 冲突深描 + 主题深描），黑底机甲红+金橙风格，单一自包含网页、断网可看、可打印。
+description: 微信聊天记录 → 一份「恋爱档案」单一 HTML。输入一段关系的聊天导出，自动产出唯一交付物：关系全档案（双向画像 + 争吵全景 + 逐场深析 + 冲突深描 + 主题深描），暖色书本风（参照《对话精选》调性：米白纸感 + 宋体衬线 + 窄阅读栏），单一自包含网页、断网可看、可打印。
 ---
 
 # love-archive-dossier · 恋爱档案
@@ -8,7 +8,7 @@ description: 微信聊天记录 → 一份「恋爱档案」单一 HTML。输入
 > **本 skill 做一件事，产出一个文件：一份《恋爱档案》HTML。**
 > 输入：一个人（你 × 对方）的微信聊天记录导出（JSON）。
 > 输出：`恋爱档案-（对方）.html` —— 单一自包含网页，零外部资源、断网可看、可打印。
-> UI 风格：黑底 `#0f1115` + 机甲红 `#E0353F` + 金橙 `#E8A33D`，顶部 sticky 导航 + 分段锚点。
+> UI 风格：暖色纸感（米白 `#FDF9F3` + 暖陶红 `#B5533C` + 暖金 `#C8862A`），宋体衬线大标题、窄阅读栏书本式、暖色编号目录，参照《对话精选》观感。
 
 恋爱档案采用「单文件合订」设计：把双向画像、争吵全景、逐场深析、冲突深描、主题深描装进同一份 HTML，便于断网查看、打印、单文件归档与分享。
 
@@ -57,7 +57,7 @@ description: 微信聊天记录 → 一份「恋爱档案」单一 HTML。输入
 
 - `scripts/collect.py` —— 统一口径全量指标 → `out/metrics.json`（cross-relation 可比）。
 - `scripts/detect_conflicts.py` —— 冲突时段检测（分层打分 + 时间聚类）→ `out/conflicts.json`。
-- `scripts/merge_dossier.py` —— 多 HTML → 单一自包含网页（dark 默认 = 机甲红+金橙主题）。
+- `scripts/merge_dossier.py` —— 多 HTML → 单一自包含网页（warm 默认 = 暖色书本风，参照《对话精选》）。
 - `scripts/solo_pipeline.py` —— `init`（准备工程）/ `build`（合并交付）编排器。
 - `dossier.example.toml` / `config.example.toml` —— 配置模板。
 
@@ -67,6 +67,7 @@ description: 微信聊天记录 → 一份「恋爱档案」单一 HTML。输入
 - `references/deep-analysis.md` —— 深度分析方法（口径/三筛子/镜像锐评/主题深描/踩坑）。**精读与写作前必读**。
 - `references/reading-method.md` —— 三筛子精读法。
 - `references/pitfalls.md` —— 写作纪律与常见错误（平视/证据挂回/双向裁决/归因四分类/诚实三件事）。
+- `references/writing-voice.md` —— 文案去 AI 味：**写六段前必读**，避免升华式总结、破折号堆砌、规则三、替读者下结论等 AI 腔。
 
 ---
 
@@ -87,7 +88,7 @@ description: 微信聊天记录 → 一份「恋爱档案」单一 HTML。输入
 - [ ] `init` 成功：`out/metrics.json` + `out/conflicts.json` 存在，6 个 section 草稿已生成。
 - [ ] 6 段全部填充，无 `（此处填写…）` 占位。
 - [ ] `build` 成功：生成 `恋爱档案-（对方）.html`，单一文件、零外部资源（无 `http(s)://`/`<script src`/`<link>`）。
-- [ ] 顶部导航 6 个锚点可跳转；含「归因四分类」且末类非空。
+- [ ] 目录 6 个锚点可跳转；含「归因四分类」且末类非空。
 - [ ] 数据中「完整性」如实写明（尤其用了 `--tolerant` 坏页导出时）。
 
 ---
@@ -97,7 +98,7 @@ description: 微信聊天记录 → 一份「恋爱档案」单一 HTML。输入
 | 错误 | 后果 | 正确做法 |
 |---|---|---|
 | 违反单文件约定，另拆出多个 HTML | 破坏「一份档案」设计 | 全部内容装进这一个 HTML 的 6 段里 |
-| 用其他渲染器/模板替代 merge_dossier | 丢掉合并版的完整结构与主题样式 | 恋爱档案 = merge_dossier 合成的关系全档案（dark 机甲主题） |
+| 用其他渲染器/模板替代 merge_dossier | 丢掉合并版的完整结构与主题样式 | 恋爱档案 = merge_dossier 合成的关系全档案（暖色书本风，默认） |
 | 只给定性不给证据 | 等于没复盘 | 每个判断挂时间戳/统计值 |
 | 单方定罪 | 失真、不客观 | 互为原被告，双向裁决 |
 | 合并时拼接各 section 自带 CSS | 字号/栏宽跳变 | merge_dossier 统一外壳，只抽 `<body>` |

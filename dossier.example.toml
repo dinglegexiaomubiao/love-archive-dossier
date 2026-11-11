@@ -9,18 +9,19 @@
 
 [dossier]
 title     = "我 × 对方 · 关系全档案"
-subtitle  = "基于微信聊天记录的关系复盘"
+subtitle  = "一段微信聊天记录，一份关系复盘"
+kicker    = "恋 爱 档 案"
 nav_brand = "关系全档案"
-intro     = "一份文件装下双向画像、争吵全景、逐场深析、冲突事件深描与主题深描。所有引号均出自聊天原文（已脱敏），不站队、不定罪，仅供复盘。"
-theme     = "dark"          # dark（黑底机甲红+金橙，默认） | light
+intro     = "这一份把你们这段关系从头到尾捋了一遍：双方是什么样的人、吵过哪些架、哪些话真正伤了人、又有哪些事其实谁都不该背锅。里面的原话都来自聊天记录（已脱敏），我不替你们下结论，只是把发生的东西摆出来。"
+theme     = "warm"          # warm（暖色书本风，默认，参照《对话精选》） | dark
 out       = "恋爱档案-对方.html"
-footer    = "本恋爱档案由 love-archive-dossier skill 生成 · 明文私密内容，请勿外传"
+footer    = "这份档案由 love-archive-dossier 生成。内容是明文私密文件，别随手发人。"
 
 # 第一部分 · 双向用户画像（锐评版）
 [[dossier.section]]
 id     = "1"
 nav    = "双向画像"
-title  = "第一部分 · 双向用户画像（锐评版）"
+title  = "双向用户画像（锐评版）"
 desc   = "数据速览、双方喜好/性格/优缺点、话题与情绪对比。"
 source = "1_双向画像.html"
 
@@ -28,7 +29,7 @@ source = "1_双向画像.html"
 [[dossier.section]]
 id     = "2"
 nav    = "争吵全景"
-title  = "第二部分 · 关键争吵 · 全景与类型学"
+title  = "关键争吵 · 全景与类型学"
 desc   = "冲突时段检测、全景时间线、月度频率、六类类型学、谁先升级。"
 source = "2_争吵全景.html"
 
@@ -36,7 +37,7 @@ source = "2_争吵全景.html"
 [[dossier.section]]
 id     = "3"
 nav    = "吵架深析"
-title  = "第三部分 · 关键吵架深度分析"
+title  = "关键吵架深度分析"
 desc   = "若干场关键吵架的触发-升级-收尾与跨场规律。"
 source = "3_吵架深析.html"
 
@@ -44,7 +45,7 @@ source = "3_吵架深析.html"
 [[dossier.section]]
 id     = "4"
 nav    = "冲突深描"
-title  = "第四部分 · 关键冲突事件深描"
+title  = "关键冲突事件深描"
 desc   = "点名场次的互相指责双向还原 + 双方优缺点 + 转捩点。"
 source = "4_冲突深描.html"
 
@@ -52,7 +53,7 @@ source = "4_冲突深描.html"
 [[dossier.section]]
 id     = "5"
 nav    = "主题·价值感"
-title  = "第五部分 · 主题深描 · 价值感/物化/既要又要/道德绑架"
+title  = "主题深描 · 价值感/物化/既要又要/道德绑架"
 desc   = "对具体观察回原文取证，逐条坐实或证伪。"
 source = "5_主题_价值感.html"
 
@@ -60,7 +61,7 @@ source = "5_主题_价值感.html"
 [[dossier.section]]
 id     = "6"
 nav    = "主题·家族"
-title  = "第六部分 · 主题深描 · 家族与指责辩析"
+title  = "主题深描 · 家族与指责辩析"
 desc   = "还原具体指责，核查并给铁证表。"
 source = "6_主题_家族.html"
 
@@ -70,7 +71,7 @@ source = "6_主题_家族.html"
 into = "1"
 html = """
 <div class="card" style="border-top:4px solid var(--gold);margin-top:22px">
-  <h3>⚔ 冲突中暴露的特质（据后续深描回写）</h3>
+  <h3>冲突中暴露的特质（据后续深描回写）</h3>
   <p>把「吵架深析 / 冲突深描 / 主题深描」的结论各压缩两三行，补进双方画像卡片。
      合并只统一格式、不改数字；若改了数字，记进勘误。</p>
 </div>
