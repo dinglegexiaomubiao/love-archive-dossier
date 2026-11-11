@@ -1,56 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
-  <rect width="900" height="520" fill="#0f1115"/>
-  <text x="24" y="44" fill="#E6E8EB" font-size="20" font-weight="700">一份文件，六段内容</text>
-  <text x="24" y="70" fill="#8A93A0" font-size="13">恋爱档案-（对方）.html · 单一自包含网页，零外部资源、断网可看、可打印</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="900" height="550" fill="#FDF9F3"/>
+  <rect x="0" y="0" width="900" height="44" fill="#FBF1E4"/>
+  <text x="24" y="29" fill="#B8603C" font-size="16" font-weight="700">关系全档案</text>
+  <text x="124" y="29" fill="#8E8073" font-size="12.5">一份文件 · 六段内容</text>
+
+  <text x="24" y="82" fill="#332C27" font-family="'Songti SC','Source Han Serif SC',SimSun,serif" font-size="19" font-weight="700">一份文件，六段内容</text>
+  <text x="24" y="106" fill="#8E8073" font-size="13">恋爱档案-（对方）.html · 单一自包含网页，零外部资源、断网可看、可打印</text>
+
   <!-- central file pill -->
-  <rect x="300" y="96" width="300" height="46" rx="23" fill="#1b2027" stroke="#2a3139"/>
-  <text x="450" y="125" fill="#E6E8EB" font-size="15" font-weight="700" text-anchor="middle">恋爱档案-对方.html</text>
+  <rect x="300" y="130" width="300" height="46" rx="23" fill="#FFFDFA" stroke="#E6D9C8"/>
+  <text x="450" y="153" fill="#332C27" font-size="15" font-weight="700" text-anchor="middle">恋爱档案-对方.html</text>
+
   <!-- connectors -->
-  <g stroke="#2a3139" stroke-width="1.5">
-    <line x1="450" y1="142" x2="159" y2="200"/>
-    <line x1="450" y1="142" x2="447" y2="200"/>
-    <line x1="450" y1="142" x2="735" y2="200"/>
-    <line x1="450" y1="142" x2="159" y2="370"/>
-    <line x1="450" y1="142" x2="447" y2="370"/>
-    <line x1="450" y1="142" x2="735" y2="370"/>
+  <g stroke="#D8C9B6" stroke-width="1.5">
+    <line x1="450" y1="176" x2="159" y2="210"/>
+    <line x1="450" y1="176" x2="447" y2="210"/>
+    <line x1="450" y1="176" x2="735" y2="210"/>
+    <line x1="450" y1="176" x2="159" y2="380"/>
+    <line x1="450" y1="176" x2="447" y2="380"/>
+    <line x1="450" y1="176" x2="735" y2="380"/>
   </g>
+
   <!-- row1 -->
-  <rect x="24" y="200" width="270" height="140" rx="12" fill="#15191f" stroke="#2a3139"/>
-  <circle cx="52" cy="230" r="16" fill="#E0353F"/><text x="52" y="236" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">1</text>
-  <text x="78" y="236" fill="#E6E8EB" font-size="14" font-weight="700">双向画像</text>
-  <text x="44" y="270" fill="#8A93A0" font-size="12">数据速览、双方性格 / 优缺点、</text>
-  <text x="44" y="290" fill="#8A93A0" font-size="12">话题与情绪对比</text>
+  <rect x="24" y="210" width="270" height="140" rx="12" fill="#FFFDFA" stroke="#E6D9C8"/>
+  <circle cx="52" cy="240" r="16" fill="#B8603C"/><text x="52" y="246" fill="#FFFDFA" font-size="14" font-weight="700" text-anchor="middle">1</text>
+  <text x="78" y="246" fill="#332C27" font-size="14" font-weight="700">双向画像</text>
+  <text x="44" y="280" fill="#8E8073" font-size="12">数据速览、双方性格 / 优缺点、</text>
+  <text x="44" y="300" fill="#8E8073" font-size="12">话题与情绪对比</text>
 
-  <rect x="312" y="200" width="270" height="140" rx="12" fill="#15191f" stroke="#2a3139"/>
-  <circle cx="340" cy="230" r="16" fill="#E8A33D"/><text x="340" y="236" fill="#0f1115" font-size="14" font-weight="700" text-anchor="middle">2</text>
-  <text x="366" y="236" fill="#E6E8EB" font-size="14" font-weight="700">争吵全景</text>
-  <text x="332" y="270" fill="#8A93A0" font-size="12">冲突时段检测、月度频率、</text>
-  <text x="332" y="290" fill="#8A93A0" font-size="12">谁先升级、六类类型学</text>
+  <rect x="312" y="210" width="270" height="140" rx="12" fill="#FFFDFA" stroke="#E6D9C8"/>
+  <circle cx="340" cy="240" r="16" fill="#C8862A"/><text x="340" y="246" fill="#FFFDFA" font-size="14" font-weight="700" text-anchor="middle">2</text>
+  <text x="366" y="246" fill="#332C27" font-size="14" font-weight="700">争吵全景</text>
+  <text x="332" y="280" fill="#8E8073" font-size="12">冲突时段检测、月度频率、</text>
+  <text x="332" y="300" fill="#8E8073" font-size="12">谁先升级、六类类型学</text>
 
-  <rect x="600" y="200" width="270" height="140" rx="12" fill="#15191f" stroke="#2a3139"/>
-  <circle cx="628" cy="230" r="16" fill="#E0353F"/><text x="628" y="236" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">3</text>
-  <text x="654" y="236" fill="#E6E8EB" font-size="14" font-weight="700">吵架深析</text>
-  <text x="620" y="270" fill="#8A93A0" font-size="12">单场吵架的触发—升级—</text>
-  <text x="620" y="290" fill="#8A93A0" font-size="12">转折—收尾与跨场规律</text>
+  <rect x="600" y="210" width="270" height="140" rx="12" fill="#FFFDFA" stroke="#E6D9C8"/>
+  <circle cx="628" cy="240" r="16" fill="#B8603C"/><text x="628" y="246" fill="#FFFDFA" font-size="14" font-weight="700" text-anchor="middle">3</text>
+  <text x="654" y="246" fill="#332C27" font-size="14" font-weight="700">吵架深析</text>
+  <text x="620" y="280" fill="#8E8073" font-size="12">单场吵架的触发—升级—</text>
+  <text x="620" y="300" fill="#8E8073" font-size="12">转折—收尾与跨场规律</text>
 
   <!-- row2 -->
-  <rect x="24" y="370" width="270" height="140" rx="12" fill="#15191f" stroke="#2a3139"/>
-  <circle cx="52" cy="400" r="16" fill="#E8A33D"/><text x="52" y="406" fill="#0f1115" font-size="14" font-weight="700" text-anchor="middle">4</text>
-  <text x="78" y="406" fill="#E6E8EB" font-size="14" font-weight="700">冲突深描</text>
-  <text x="44" y="440" fill="#8A93A0" font-size="12">点名场次互相指责还原、</text>
-  <text x="44" y="460" fill="#8A93A0" font-size="12">归因四分类裁决</text>
+  <rect x="24" y="380" width="270" height="140" rx="12" fill="#FFFDFA" stroke="#E6D9C8"/>
+  <circle cx="52" cy="410" r="16" fill="#C8862A"/><text x="52" y="416" fill="#FFFDFA" font-size="14" font-weight="700" text-anchor="middle">4</text>
+  <text x="78" y="416" fill="#332C27" font-size="14" font-weight="700">冲突深描</text>
+  <text x="44" y="450" fill="#8E8073" font-size="12">点名场次互相指责还原、</text>
+  <text x="44" y="470" fill="#8E8073" font-size="12">归因四分类裁决</text>
 
-  <rect x="312" y="370" width="270" height="140" rx="12" fill="#15191f" stroke="#2a3139"/>
-  <circle cx="340" cy="400" r="16" fill="#E0353F"/><text x="340" y="406" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">5</text>
-  <text x="366" y="406" fill="#E6E8EB" font-size="14" font-weight="700">主题·价值感</text>
-  <text x="332" y="440" fill="#8A93A0" font-size="12">对具体观察回原文取证、</text>
-  <text x="332" y="460" fill="#8A93A0" font-size="12">逐条坐实或证伪</text>
+  <rect x="312" y="380" width="270" height="140" rx="12" fill="#FFFDFA" stroke="#E6D9C8"/>
+  <circle cx="340" cy="410" r="16" fill="#B8603C"/><text x="340" y="416" fill="#FFFDFA" font-size="14" font-weight="700" text-anchor="middle">5</text>
+  <text x="366" y="416" fill="#332C27" font-size="14" font-weight="700">主题·价值感</text>
+  <text x="332" y="450" fill="#8E8073" font-size="12">对具体观察回原文取证、</text>
+  <text x="332" y="470" fill="#8E8073" font-size="12">逐条坐实或证伪</text>
 
-  <rect x="600" y="370" width="270" height="140" rx="12" fill="#15191f" stroke="#2a3139"/>
-  <circle cx="628" cy="400" r="16" fill="#E8A33D"/><text x="628" y="406" fill="#0f1115" font-size="14" font-weight="700" text-anchor="middle">6</text>
-  <text x="654" y="406" fill="#E6E8EB" font-size="14" font-weight="700">主题·家族</text>
-  <text x="620" y="440" fill="#8A93A0" font-size="12">还原具体指责，证据表</text>
-  <text x="620" y="460" fill="#8A93A0" font-size="12">逐条裁决</text>
+  <rect x="600" y="380" width="270" height="140" rx="12" fill="#FFFDFA" stroke="#E6D9C8"/>
+  <circle cx="628" cy="410" r="16" fill="#C8862A"/><text x="628" y="416" fill="#FFFDFA" font-size="14" font-weight="700" text-anchor="middle">6</text>
+  <text x="654" y="416" fill="#332C27" font-size="14" font-weight="700">主题·家族</text>
+  <text x="620" y="450" fill="#8E8073" font-size="12">还原具体指责，证据表</text>
+  <text x="620" y="470" fill="#8E8073" font-size="12">逐条裁决</text>
 
-  <text x="24" y="506" fill="#525a66" font-size="11">全部内容为模拟演示 · 不涉及任何真实个人信息</text>
+  <text x="24" y="544" fill="#8E8073" font-size="11">全部内容为模拟演示 · 不涉及任何真实个人信息</text>
 </svg>

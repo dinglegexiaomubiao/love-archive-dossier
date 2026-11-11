@@ -6,13 +6,13 @@
 
 ## 预览
 
-![恋爱档案产出预览](assets/preview.svg)
+![恋爱档案产出预览](assets/preview.png)
 
 ## 这是什么
 
 把一段关系（你 × 对方）的微信聊天记录，做成一份**关系全档案**：双向画像、争吵全景、逐场深析、冲突深描、主题深描，全部合订进同一个 HTML 文件。
 
-![一份文件六段内容](assets/structure.svg)
+![一份文件六段内容](assets/structure.png)
 
 ## 快速开始
 
@@ -31,7 +31,7 @@ python scripts/solo_pipeline.py build -w "./work_demo"
 
 ## 工作流
 
-![六步工作流](assets/workflow.svg)
+![六步工作流](assets/workflow.png)
 
 ## 六段结构
 
