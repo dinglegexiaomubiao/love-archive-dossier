@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" font-family="'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+  <rect width="900" height="720" fill="#0f1115"/>
+  <!-- top nav -->
+  <rect x="0" y="0" width="900" height="48" fill="#15191f"/>
+  <text x="24" y="30" fill="#E0353F" font-size="16" font-weight="700">关系全档案</text>
+  <text x="124" y="30" fill="#6b7280" font-size="12.5">双向画像 · 争吵全景 · 吵架深析 · 冲突深描 · 主题·价值感 · 主题·家族</text>
+  <!-- title -->
+  <text x="24" y="96" fill="#E6E8EB" font-size="26" font-weight="700">甲方 × 乙方 · 关系全档案</text>
+  <text x="24" y="122" fill="#8A93A0" font-size="13">基于微信聊天记录的关系复盘 · 模拟数据 · 已脱敏</text>
+  <!-- stats -->
+  <rect x="24" y="150" width="186" height="84" rx="10" fill="#15191f" stroke="#2a3139"/>
+  <text x="40" y="194" fill="#E8A33D" font-size="24" font-weight="700">52,318</text>
+  <text x="40" y="216" fill="#8A93A0" font-size="13">总条数</text>
+  <rect x="234" y="150" width="186" height="84" rx="10" fill="#15191f" stroke="#2a3139"/>
+  <text x="250" y="194" fill="#E6E8EB" font-size="24" font-weight="700">689</text>
+  <text x="250" y="216" fill="#8A93A0" font-size="13">天数</text>
+  <rect x="444" y="150" width="186" height="84" rx="10" fill="#15191f" stroke="#2a3139"/>
+  <text x="460" y="194" fill="#E6E8EB" font-size="24" font-weight="700">47%</text>
+  <text x="460" y="216" fill="#8A93A0" font-size="13">我方占比</text>
+  <rect x="654" y="150" width="186" height="84" rx="10" fill="#15191f" stroke="#2a3139"/>
+  <text x="670" y="194" fill="#E6E8EB" font-size="24" font-weight="700">76</text>
+  <text x="670" y="216" fill="#8A93A0" font-size="13">日均条数</text>
+  <!-- profile cards -->
+  <rect x="24" y="262" width="414" height="212" rx="12" fill="#15191f" stroke="#2a3139"/>
+  <rect x="24" y="262" width="414" height="40" rx="12" fill="#1f3a5c"/>
+  <text x="40" y="288" fill="#cfe3ff" font-size="15" font-weight="700">甲方（我）</text>
+  <text x="40" y="324" fill="#E6E8EB" font-size="13">沟通风格：长段叙述、先解释后共情</text>
+  <text x="40" y="350" fill="#E6E8EB" font-size="13">口头禅：「其实」「不是那个意思」</text>
+  <text x="40" y="380" fill="#9fe6c0" font-size="13">优点：愿意把话说开</text>
+  <text x="40" y="406" fill="#f0a9ad" font-size="13">缺点：解释过多、偶尔回避情绪</text>
+  <text x="40" y="438" fill="#8A93A0" font-size="12">数据：字长均值 41 · 主动开场 38%</text>
+  <rect x="462" y="262" width="414" height="212" rx="12" fill="#15191f" stroke="#2a3139"/>
+  <rect x="462" y="262" width="414" height="40" rx="12" fill="#5c2030"/>
+  <text x="478" y="288" fill="#ffd5d9" font-size="15" font-weight="700">乙方（对方）</text>
+  <text x="478" y="324" fill="#E6E8EB" font-size="13">沟通风格：短句、情绪先行</text>
+  <text x="478" y="350" fill="#E6E8EB" font-size="13">口头禅：「算了」「你总是」</text>
+  <text x="478" y="380" fill="#9fe6c0" font-size="13">优点：反应快、直给</text>
+  <text x="478" y="406" fill="#f0a9ad" font-size="13">缺点：先定罪后听解释</text>
+  <text x="478" y="438" fill="#8A93A0" font-size="12">数据：字长均值 23 · 主动开场 62%</text>
+  <!-- conflict bar -->
+  <text x="24" y="510" fill="#E6E8EB" font-size="14" font-weight="700">月度冲突频次（模拟）</text>
+  <line x1="24" y1="600" x2="876" y2="600" stroke="#2a3139"/>
+  <rect x="44" y="570" width="90" height="30" rx="3" fill="#E0353F" opacity="0.85"/>
+  <rect x="174" y="530" width="90" height="70" rx="3" fill="#E0353F" opacity="0.85"/>
+  <rect x="304" y="550" width="90" height="50" rx="3" fill="#E0353F" opacity="0.85"/>
+  <rect x="434" y="510" width="90" height="90" rx="3" fill="#E0353F" opacity="0.85"/>
+  <rect x="564" y="560" width="90" height="40" rx="3" fill="#E0353F" opacity="0.85"/>
+  <rect x="694" y="540" width="90" height="60" rx="3" fill="#E0353F" opacity="0.85"/>
+  <text x="89" y="618" fill="#6b7280" font-size="11" text-anchor="middle">1月</text>
+  <text x="219" y="618" fill="#6b7280" font-size="11" text-anchor="middle">2月</text>
+  <text x="349" y="618" fill="#6b7280" font-size="11" text-anchor="middle">3月</text>
+  <text x="479" y="618" fill="#6b7280" font-size="11" text-anchor="middle">4月</text>
+  <text x="609" y="618" fill="#6b7280" font-size="11" text-anchor="middle">5月</text>
+  <text x="739" y="618" fill="#6b7280" font-size="11" text-anchor="middle">6月</text>
+  <!-- attribution -->
+  <rect x="24" y="640" width="205" height="30" rx="15" fill="#2f6db0"/>
+  <text x="126" y="660" fill="#fff" font-size="12.5" text-anchor="middle">我方责任</text>
+  <rect x="237" y="640" width="205" height="30" rx="15" fill="#E0353F"/>
+  <text x="339" y="660" fill="#fff" font-size="12.5" text-anchor="middle">对方责任</text>
+  <rect x="450" y="640" width="205" height="30" rx="15" fill="#2e9e6b"/>
+  <text x="552" y="660" fill="#fff" font-size="12.5" text-anchor="middle">共同责任</text>
+  <rect x="663" y="640" width="205" height="30" rx="15" fill="#4b5563"/>
+  <text x="765" y="660" fill="#fff" font-size="12.5" text-anchor="middle">非任何人责任</text>
+  <text x="24" y="704" fill="#525a66" font-size="11">本图所有姓名、数字、对话均为模拟演示数据，不含任何真实个人信息</text>
+</svg>

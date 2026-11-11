@@ -1,0 +1,77 @@
+# 恋爱档案 · 合并配置模板（单份 HTML 交付）
+#
+# 本 skill 的唯一交付物就是这一个 HTML（恋爱档案）。
+# 用法：python scripts/merge_dossier.py -c dossier.toml
+#   source 相对本文件所在目录解析，支持 .html（抽 body）与 .md（轻量转 HTML）。
+#
+# 结构默认 6 段；可按关系增删 [[dossier.section]]。
+# 每段 source 指向一个 section HTML（AI 在分析阶段填充）。
+
+[dossier]
+title     = "我 × 对方 · 关系全档案"
+subtitle  = "基于微信聊天记录的关系复盘"
+nav_brand = "关系全档案"
+intro     = "一份文件装下双向画像、争吵全景、逐场深析、冲突事件深描与主题深描。所有引号均出自聊天原文（已脱敏），不站队、不定罪，仅供复盘。"
+theme     = "dark"          # dark（黑底机甲红+金橙，默认） | light
+out       = "恋爱档案-对方.html"
+footer    = "本恋爱档案由 love-archive-dossier skill 生成 · 明文私密内容，请勿外传"
+
+# 第一部分 · 双向用户画像（锐评版）
+[[dossier.section]]
+id     = "1"
+nav    = "双向画像"
+title  = "第一部分 · 双向用户画像（锐评版）"
+desc   = "数据速览、双方喜好/性格/优缺点、话题与情绪对比。"
+source = "1_双向画像.html"
+
+# 第二部分 · 关键争吵全景与类型学
+[[dossier.section]]
+id     = "2"
+nav    = "争吵全景"
+title  = "第二部分 · 关键争吵 · 全景与类型学"
+desc   = "冲突时段检测、全景时间线、月度频率、六类类型学、谁先升级。"
+source = "2_争吵全景.html"
+
+# 第三部分 · 关键吵架深度分析
+[[dossier.section]]
+id     = "3"
+nav    = "吵架深析"
+title  = "第三部分 · 关键吵架深度分析"
+desc   = "若干场关键吵架的触发-升级-收尾与跨场规律。"
+source = "3_吵架深析.html"
+
+# 第四部分 · 关键冲突事件深描
+[[dossier.section]]
+id     = "4"
+nav    = "冲突深描"
+title  = "第四部分 · 关键冲突事件深描"
+desc   = "点名场次的互相指责双向还原 + 双方优缺点 + 转捩点。"
+source = "4_冲突深描.html"
+
+# 第五部分 · 主题深描（价值感/物化/既要又要/道德绑架）
+[[dossier.section]]
+id     = "5"
+nav    = "主题·价值感"
+title  = "第五部分 · 主题深描 · 价值感/物化/既要又要/道德绑架"
+desc   = "对具体观察回原文取证，逐条坐实或证伪。"
+source = "5_主题_价值感.html"
+
+# 第六部分 · 主题深描（家族与指责辩析）
+[[dossier.section]]
+id     = "6"
+nav    = "主题·家族"
+title  = "第六部分 · 主题深描 · 家族与指责辩析"
+desc   = "还原具体指责，核查并给铁证表。"
+source = "6_主题_家族.html"
+
+# 结论回写：把后续深描的结论压缩成一小块，补进画像 section，避免模块孤立。
+# 这一段必须手写（由 AI 在写完全部 section 后回填），脚本不会自动生成。
+[[dossier.inject]]
+into = "1"
+html = """
+<div class="card" style="border-top:4px solid var(--gold);margin-top:22px">
+  <h3>⚔ 冲突中暴露的特质（据后续深描回写）</h3>
+  <p>把「吵架深析 / 冲突深描 / 主题深描」的结论各压缩两三行，补进双方画像卡片。
+     合并只统一格式、不改数字；若改了数字，记进勘误。</p>
+</div>
+"""
